@@ -14,7 +14,7 @@ var maxIter = 200;
 
 function renderIt(frame) {
 	if (frame >= allFrame) {
-		phantom.exit();
+		page.exit();
 		return;
 	}
 
@@ -30,6 +30,18 @@ function renderIt(frame) {
 	}, 5);
 }
 
+page.onError = function(msg, trace) {
+	var msgStack = ['PHANTOM ERROR: ' + msg];
+	if (trace && trace.length) {
+	  msgStack.push('TRACE:');
+	  trace.forEach(function(t) {
+		msgStack.push(' -> ' + (t.file || t.sourceURL) + ': ' + t.line + (t.function ? ' (in function ' + t.function +')' : ''));
+	  });
+	}
+	console.log(msgStack.join('\n'));
+	page.exit(1);
+  };
+
 page.onConsoleMessage = function(msg) {
 	system.stderr.writeLine('console: ' + msg);
 };
@@ -38,19 +50,20 @@ page.viewportSize = {width: width, height: height};
 
 page.open(address, function (status) {
 	if (status !== 'success') {
-		phantom.exit(1);
+		page.exit(1);
 	} else {
 		page.clipRect = {top: 0, left: 0, width: width, height: height};
 		checkFromSecond();
 	}
 });
 
+
 function checkFromSecond() {
 	var value;
 	maxIter = maxIter-1;
 
 	if(maxIter <= 0){
-		phantom.exit();
+		page.exit();
 		return;
 	}
 

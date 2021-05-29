@@ -46,7 +46,7 @@ class RenderAnimationJob extends BaseJob
 
                 if($newRenderElement){
           $newRenderElement->update([
-            "is_render" => true
+            "is_render" => 1
           ]);
                     $this->renderAnimation($newRenderElement);
                 }

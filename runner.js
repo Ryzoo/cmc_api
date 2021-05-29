@@ -14,7 +14,7 @@ var maxIter = 200;
 
 function renderIt(frame) {
 	if (frame >= allFrame) {
-		page.exit();
+		phantom.exit();
 		return;
 	}
 
@@ -30,7 +30,7 @@ function renderIt(frame) {
 	}, 5);
 }
 
-page.onError = function(msg, trace) {
+phantom.onError = function(msg, trace) {
 	var msgStack = ['PHANTOM ERROR: ' + msg];
 	if (trace && trace.length) {
 	  msgStack.push('TRACE:');
@@ -39,7 +39,7 @@ page.onError = function(msg, trace) {
 	  });
 	}
 	console.log(msgStack.join('\n'));
-	page.exit(1);
+	phantom.exit(1);
   };
 
 page.onConsoleMessage = function(msg) {
@@ -50,7 +50,7 @@ page.viewportSize = {width: width, height: height};
 
 page.open(address, function (status) {
 	if (status !== 'success') {
-		page.exit(1);
+		phantom.exit(1);
 	} else {
 		page.clipRect = {top: 0, left: 0, width: width, height: height};
 		checkFromSecond();
@@ -63,7 +63,7 @@ function checkFromSecond() {
 	maxIter = maxIter-1;
 
 	if(maxIter <= 0){
-		page.exit();
+		phantom.exit();
 		return;
 	}
 

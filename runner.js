@@ -19,8 +19,11 @@ function renderIt(frame) {
 	}
 
 	var dir = "/home/forge/api.centrumklubu.pl/public_html/";
+	var fullDir = dir+'render/zdj_' + args[2] + '/frame_' + frame + '.jpeg';
 
-	page.render(dir+'render/zdj_' + args[2] + '/frame_' + frame + '.jpeg', {format: 'jpeg', quality: '100'});
+	console.log(fullDir);
+
+	page.render(fullDir, {format: 'jpeg', quality: '100'});
 
 	setTimeout(function () {
 		page.evaluate(function () {

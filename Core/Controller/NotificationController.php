@@ -44,7 +44,7 @@ class NotificationController implements IController
 
         if($notification){
             $notification->update([
-                "isRead" => TRUE
+                "isRead" => 1
             ]);
         }else{
             Response::error("Nie znaleziono obiektu do edycji.",404);
@@ -68,7 +68,7 @@ class NotificationController implements IController
             "title" => $request->get("title"),
             "content" => $request->get("content"),
             "icon" => $request->get("icon")?$request->get("icon"):null,
-            "isRead" => FALSE,
+            "isRead" => 0,
             "date" => (new \DateTime())->format('Y-m-d H:i:s'),
             "url" => $request->get("url")?$request->get("url"):null
         ]);

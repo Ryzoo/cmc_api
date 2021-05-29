@@ -75,6 +75,8 @@ class BasicModel{
         unset($allFields['table']);
         unset($allFields['relations']);
 
+        var_dump($fields); die();
+
         foreach ($fields as $index => $item) {
             if(in_array($index,$allFields)){
                 $this->$index = $item;

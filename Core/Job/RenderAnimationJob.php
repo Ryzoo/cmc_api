@@ -92,7 +92,7 @@ class RenderAnimationJob extends BaseJob
 
             exec("chmod +x {$dir}render/user_script_{$newName}.sh");
             exec("chmod u+s {$dir}render/user_script_{$newName}.sh");
-            exec("su CMCAdmin {$dir}render/user_script_{$newName}.sh > {$dir}render/out-{$animationId}.txt 2>{$dir}render/out2-{$animationId}.txt &");
+            exec("{$dir}render/user_script_{$newName}.sh > {$dir}render/out-{$animationId}.txt 2>{$dir}render/out2-{$animationId}.txt &");
         }
     }
 }

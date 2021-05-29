@@ -30,7 +30,7 @@ function renderIt(frame) {
 	}, 5);
 }
 
-phantom.onError = function(msg, trace) {
+page.onError = function(msg, trace) {
 	var msgStack = ['PHANTOM ERROR: ' + msg];
 	if (trace && trace.length) {
 	  msgStack.push('TRACE:');
@@ -89,6 +89,7 @@ function renderAll(){
 function checkValue(){
 	return page.evaluate(function () {
 		if(!$('#allFrame')) return -2;
+		console.log('value',parseInt($('#allFrame').val()));
 		return parseInt($('#allFrame').val());
 	});
 }

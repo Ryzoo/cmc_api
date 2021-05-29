@@ -44,7 +44,7 @@ class ChatController implements IController
 
         if ($message) {
             $message->update([
-                "isRead" => true
+                "isRead" => 1
             ]);
         } else {
             Response::error("Nie znaleziono obiektu do edycji.", 404);

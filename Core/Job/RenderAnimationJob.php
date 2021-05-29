@@ -24,7 +24,7 @@ class RenderAnimationJob extends BaseJob
     {
         $actualRender = RenderQueue::where("is_render", "=", "TRUE")->get();
 
-        if( count($actualRender) < 3 ){
+        if( count($actualRender) < 1 ){
             $newRender = RenderQueue::where("is_render", "=", "FALSE")->where("is_end", "=", "FALSE")->get();
 
 

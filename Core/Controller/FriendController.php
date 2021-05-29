@@ -70,7 +70,7 @@ class FriendController implements IController
                 "title" => "Zaakceptowano Twoje zaproszenie",
                 "content" => "Użytkownik: " . $GLOBALS["user"]->firstname . " " . $GLOBALS["user"]->lastname ." zaakceptował Twoje zaproszenie do znajomych.",
                 "icon" => null,
-                "isRead" => FALSE,
+                "isRead" => 0,
                 "date" => (new \DateTime())->format('Y-m-d H:i:s'),
                 "url" => null
             ]);
@@ -80,7 +80,7 @@ class FriendController implements IController
                 "title" => "Odrzucono Twoje zaproszenie",
                 "content" => "Użytkownik: " . $GLOBALS["user"]->firstname . " " . $GLOBALS["user"]->lastname ." odrzucił Twoje zaproszenie do znajomych.",
                 "icon" => null,
-                "isRead" => FALSE,
+                "isRead" => 0,
                 "date" => (new \DateTime())->format('Y-m-d H:i:s'),
                 "url" => null
             ]);
@@ -160,7 +160,7 @@ class FriendController implements IController
                 "title" => "Nowe zaproszenie do znajomych",
                 "content" => "Masz nowe zaproszenie do znajomych od: " . $GLOBALS["user"]->get("firstname") . " " . $GLOBALS["user"]->get("lastname") .". Przejdź do zakłądki znajomi i odpowiedz.",
                 "icon" => null,
-                "isRead" => FALSE,
+                "isRead" => 0,
                 "date" => (new \DateTime())->format('Y-m-d H:i:s'),
                 "url" => "https://app.centrumklubu.pl/#/friends"
             ]);

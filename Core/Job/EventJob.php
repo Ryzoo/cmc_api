@@ -20,7 +20,7 @@ class EventJob extends BaseJob
             "content" => "Test",
             "icon" => "",
             "url" => "",
-            "isRead" => false,
+            "isRead" => 0,
             "date" => (new \DateTime())->format('Y-m-d H:i:s'),
             "user_id" => 2
         ]);

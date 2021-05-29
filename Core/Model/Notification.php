@@ -48,7 +48,7 @@ class Notification extends BasicModel
             "title" => $title,
             "content" => $content,
             "icon" => null,
-            "isRead" => false,
+            "isRead" => 0,
             "date" => (new \DateTime())->format('Y-m-d H:i:s'),
             "url" => $url
         ]);

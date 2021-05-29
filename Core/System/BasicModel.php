@@ -75,7 +75,7 @@ class BasicModel{
         unset($allFields['table']);
         unset($allFields['relations']);
 
-        var_dump($fields); die();
+        var_dump($fields);
 
         foreach ($fields as $index => $item) {
             if(in_array($index,$allFields)){
@@ -172,6 +172,9 @@ class BasicModel{
         }
 
         $objectArray = array_values(array_merge($objectArray,[$this->id]));
+        var_dump($objectArray);
+        var_dump($query);
+        die();
         $result = $query->execute($objectArray);
         $query->closeCursor();
         unset($query);

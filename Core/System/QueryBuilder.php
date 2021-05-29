@@ -1,7 +1,6 @@
 <?php
 namespace Core\System;
 
-use Core\System\MemcachedController;
 use PDO;
 use React\Cache\ArrayCache;
 
@@ -318,21 +317,8 @@ class QueryBuilder{
         $result = null;
         $query = Database::getInstance()->prepare( $this->queryString );
 
-        if(!$debug){
-            $memcache = MemcachedController::getInstance();
-            if($memcache->checkKeyExist($key)){
-                $result = $memcache->get($key);
-            }else{
-                $query->execute();
-                if(!$this->isUpdate){
-                    $result = $query->fetchAll();
-                    $memcache->save($key,$result);
-                }
-            }
-        }else{
-            $query->execute();
+        $query->execute();
             if(!$this->isUpdate){ $result = $query->fetchAll(); }
-        }
 
         $query->closeCursor();
         unset($query);

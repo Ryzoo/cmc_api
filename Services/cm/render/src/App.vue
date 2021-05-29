@@ -3,7 +3,7 @@
         <div id="animatorCanvas" style="z-index: 999999;"></div>
         <button id="playIt" @click="play">Play</button>
         <button id="nextFrame" @click="next">next</button>
-        <input id='allFrame' value='-2' type="text">
+        <input id='allFrame' type="number">
     </div>
 </template>
 

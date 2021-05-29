@@ -88,9 +88,9 @@ function renderAll(){
 
 function checkValue(){
 	return page.evaluate(function () {
-		if(!document.getElementById('#allFrame')) return -2;
-		console.log('value', document.getElementById('#allFrame').value);
-		return parseInt(document.getElementById('#allFrame').value);
+		if(!document.getElementById('allFrame')) return -2;
+		console.log('value', document.getElementById('allFrame').value);
+		return parseInt(document.getElementById('allFrame').value);
 	});
 }
 

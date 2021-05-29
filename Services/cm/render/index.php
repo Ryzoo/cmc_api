@@ -11,12 +11,13 @@
 		window.apiData = JSON.parse('<?php echo json_encode(array("id"=>$_GET["id"],"token"=>$_GET["token"])) ?>');
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/native-promise-only/0.8.1/npo.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
-	<script src="https://d309knd7es5f10.cloudfront.net/createjs_1.1_min.js"></script>
-	<script src="https://d309knd7es5f10.cloudfront.net/zim_7.3.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  <script src="https://zimjs.org/cdn/1.3.3/createjs.js"></script>
+  <script src="https://zimjs.org/cdn/cat/04/zim.js"></script>
   <script src="dist/build.js"></script>
+
   </body>
 </html>

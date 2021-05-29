@@ -18,7 +18,7 @@ function renderIt(frame) {
 		return;
 	}
 
-	var dir = "/usr/home/CMCAdmin/domains/api.centrumklubu.pl/public_html/";
+	var dir = "/home/forge/api.centrumklubu.pl/";
 
 	page.render(dir+'render/zdj_' + args[2] + '/frame_' + frame + '.jpeg', {format: 'jpeg', quality: '100'});
 
@@ -89,7 +89,6 @@ function renderAll(){
 function checkValue(){
 	return page.evaluate(function () {
 		if(!document.getElementById('allFrame')) return -2;
-		console.log('value', document.getElementById('allFrame').value);
 		return parseInt(document.getElementById('allFrame').value);
 	});
 }

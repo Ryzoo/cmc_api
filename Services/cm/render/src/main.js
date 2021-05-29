@@ -1,5 +1,8 @@
 
-
+	
+		import Vue from 'vue'
+		import App from './App.vue'
+		
 	window.addEventListener('load', function () {
 
 		var DEFAULT_MAX_DEPTH = 6;
@@ -144,9 +147,6 @@
 		prune.forEachProperty = forEachProperty; // you might want to also assign it to Object.forEachProperty
 	
 		JSON.prune = prune;
-	
-		import Vue from 'vue'
-		import App from './App.vue'
 	
 		new Vue({
 			el: '#app',

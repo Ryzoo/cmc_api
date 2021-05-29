@@ -23,6 +23,7 @@
 			}
 		},
 		mounted: function(){
+			$("#allFrame").val(-2);
             axios.defaults.headers.common['Authorization'] = `Bearer ${window.apiData.token}`;
 			if(window.apiData){
 				axios.get(`https://api.centrumklubu.pl/animations/${window.apiData.id}`)

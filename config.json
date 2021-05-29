@@ -1,14 +1,14 @@
 {
   "environment": "prod",
   "database": {
-    "host": "mysql18.mydevil.net",
+    "host": "localhost",
     "dbname": "m1006_api",
     "port": 3306,
     "username": "m1006_api",
     "password": "5AK99gozXs4CYG86j6KF"
   },
   "localDatabase": {
-    "host": "mysql18.mydevil.net",
+    "host": "localhost",
     "dbname": "m1006_api",
     "port": 3306,
     "username": "m1006_api",

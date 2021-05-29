@@ -89,7 +89,7 @@ function renderAll(){
 function checkValue(){
 	return page.evaluate(function () {
 		if(!$('#allFrame')) return -2;
-		console.log('value',JSON.stringify($('#allFrame')));
+		console.log('value',document.getElementById('#allFrame').value);
 		return parseInt($('#allFrame').val());
 	});
 }

@@ -18,7 +18,7 @@ function renderIt(frame) {
 		return;
 	}
 
-	var dir = "/home/forge/api.centrumklubu.pl/";
+	var dir = "/home/forge/api.centrumklubu.pl/public_html/";
 
 	page.render(dir+'render/zdj_' + args[2] + '/frame_' + frame + '.jpeg', {format: 'jpeg', quality: '100'});
 

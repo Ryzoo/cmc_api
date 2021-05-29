@@ -79,7 +79,7 @@ class RenderAnimationJob extends BaseJob
             exec("echo \"#!/bin/bash\" > {$dir}render/user_script_{$newName}.sh");
             $scriptFile = fopen("{$dir}render/user_script_{$newName}.sh", "w");
             fwrite($scriptFile, " mkdir -p {$dir}render/zdj_{$newName}");
-            fwrite($scriptFile, " && env LD_LIBRARY_PATH=/usr/local/lib/compat/:. ./phantomjs {$dir}runner.js {$animationId} {$newName} {$userLoginToken}");
+            fwrite($scriptFile, " && phantomjs {$dir}runner.js {$animationId} {$newName} {$userLoginToken}");
             fwrite($scriptFile, " && cd {$dir}render/zdj_{$newName}/ && ffmpeg -framerate 60 -i frame_%00d.jpeg -c:v libx264 -preset slow -crf 18 -pix_fmt yuv420p -c:a libvo_aacenc -b:a 128k -id3v2_version 3 -metadata title=\"{$fileName}\" -metadata album_artist=\"Club Management Center\" -metadata author=\"Club Management Center\" -metadata year=\"{$currentYear}\" {$newName}.mp4");
             fwrite($scriptFile, " && mv {$dir}render/zdj_{$newName}/{$newName}.mp4 {$userDir}/{$newName}.mp4");
             fwrite($scriptFile, " && mv frame_0.jpeg {$userDir}/last.jpeg");

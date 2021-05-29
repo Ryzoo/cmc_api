@@ -1,0 +1,274 @@
+{
+  "category": [
+    {
+      "name": "field",
+      "icon": "field",
+      "tooltip": "Boiska",
+      "items": [
+        {
+          "name": "Boisko trawiaste",
+          "type": "img",
+          "class": "animatorFullItemInGroup",
+          "items":[
+            {"img":"componentResources/animator/football/pitch/trawa/bottom_half.svg", "data":"componentResources/animator/football/pitch/light_grass_bottom_half.jpg", "tooltip":"Dolna połowa"},
+            {"img":"componentResources/animator/football/pitch/trawa/top_half.svg", "data":"componentResources/animator/football/pitch/light_grass_top_half.jpg", "tooltip":"Górna połowa"},
+            {"img":"componentResources/animator/football/pitch/trawa/empty.svg", "data":"componentResources/animator/football/pitch/light_grass_empty.jpg", "tooltip":"Puste"},
+            {"img":"componentResources/animator/football/pitch/trawa/full.svg", "data":"componentResources/animator/football/pitch/light_grass_full.jpg", "tooltip":"Całe"},
+            {"img":"componentResources/animator/football/pitch/trawa/left_corner.svg", "data":"componentResources/animator/football/pitch/light_grass_left_corner.jpg", "tooltip":"Lewy róg"},
+            {"img":"componentResources/animator/football/pitch/trawa/right_corner.svg", "data":"componentResources/animator/football/pitch/light_grass_right_corner.jpg", "tooltip":"Prawy róg"}
+          ]
+        },
+        {
+          "name": "Boisko trawiaste (pespektywa)",
+          "type": "img",
+          "class": "animatorFullItemInGroup",
+          "items":[
+            {"img":"componentResources/animator/football/pitch/trawa/bottom_half.svg", "data":"componentResources/animator/football/pitch/light_grass_bottom_half_p.jpg", "tooltip":"Dolna połowa"},
+            {"img":"componentResources/animator/football/pitch/trawa/top_half.svg", "data":"componentResources/animator/football/pitch/light_grass_top_half_p.jpg", "tooltip":"Górna połowa"},
+            {"img":"componentResources/animator/football/pitch/trawa/empty.svg", "data":"componentResources/animator/football/pitch/light_grass_empty_p.jpg", "tooltip":"Puste"},
+            {"img":"componentResources/animator/football/pitch/trawa/full.svg", "data":"componentResources/animator/football/pitch/light_grass_full_horizontal_p.jpg", "tooltip":"Całe (poziomo)"},
+            {"img":"componentResources/animator/football/pitch/trawa/full.svg", "data":"componentResources/animator/football/pitch/light_grass_full_vertical_p.jpg", "tooltip":"Całe (pionowo)"},
+            {"img":"componentResources/animator/football/pitch/trawa/left_corner.svg", "data":"componentResources/animator/football/pitch/light_grass_left_half_p.jpg", "tooltip":"Lewa połowa"},
+            {"img":"componentResources/animator/football/pitch/trawa/right_corner.svg", "data":"componentResources/animator/football/pitch/light_grass_right_half_p.jpg", "tooltip":"Prawa połowa"}
+          ]
+        },
+        {
+          "name": "Boisko tartan",
+          "type": "img",
+          "class": "animatorFullItemInGroup",
+          "items":[
+            {"img":"componentResources/animator/football/pitch/tartan/bottom_half.svg", "data":"componentResources/animator/football/pitch/tartan_bottom_half.jpg", "tooltip":"Dolna połowa"},
+            {"img":"componentResources/animator/football/pitch/tartan/top_half.svg", "data":"componentResources/animator/football/pitch/tartan_top_half.jpg", "tooltip":"Górna połowa"},
+            {"img":"componentResources/animator/football/pitch/tartan/empty.svg", "data":"componentResources/animator/football/pitch/tartan_empty.jpg", "tooltip":"Puste"},
+            {"img":"componentResources/animator/football/pitch/tartan/full.svg", "data":"componentResources/animator/football/pitch/tartan_full.jpg", "tooltip":"Całe"},
+            {"img":"componentResources/animator/football/pitch/tartan/left_corner.svg", "data":"componentResources/animator/football/pitch/tartan_left_corner.jpg", "tooltip":"Lewy róg"},
+            {"img":"componentResources/animator/football/pitch/tartan/right_corner.svg", "data":"componentResources/animator/football/pitch/tartan_right_corner.jpg", "tooltip":"Prawy róg"}
+          ]
+        },
+        {
+          "name": "Boisko halowe (rodzaj A)",
+          "type": "img",
+          "class": "animatorFullItemInGroup",
+          "items":[
+            {"img":"componentResources/animator/football/pitch/hala/bottom_half.svg", "data":"componentResources/animator/football/pitch/hall1_bottom_half.jpg", "tooltip":"Dolna połowa"},
+            {"img":"componentResources/animator/football/pitch/hala/top_half.svg", "data":"componentResources/animator/football/pitch/hall1_top_half.jpg", "tooltip":"Górna połowa"},
+            {"img":"componentResources/animator/football/pitch/hala/empty.svg", "data":"componentResources/animator/football/pitch/hall1_empty.jpg", "tooltip":"Puste"},
+            {"img":"componentResources/animator/football/pitch/hala/full.svg", "data":"componentResources/animator/football/pitch/hall1_full.jpg", "tooltip":"Całe"},
+            {"img":"componentResources/animator/football/pitch/hala/left_corner.svg", "data":"componentResources/animator/football/pitch/hall1_left_corner.jpg", "tooltip":"Lewy róg"},
+            {"img":"componentResources/animator/football/pitch/hala/right_corner.svg", "data":"componentResources/animator/football/pitch/hall1_right_corner.jpg", "tooltip":"Prawy róg"}
+          ]
+        },
+        {
+          "name": "Boisko halowe (rodzaj B)",
+          "type": "img",
+          "class": "animatorFullItemInGroup",
+          "items":[
+            {"img":"componentResources/animator/football/pitch/hala2/bottom_half.svg", "data":"componentResources/animator/football/pitch/hall2_bottom_half.jpg", "tooltip":"Dolna połowa"},
+            {"img":"componentResources/animator/football/pitch/hala2/top_half.svg", "data":"componentResources/animator/football/pitch/hall2_top_half.jpg", "tooltip":"Górna połowa"},
+            {"img":"componentResources/animator/football/pitch/hala2/empty.svg", "data":"componentResources/animator/football/pitch/hall2_empty.jpg", "tooltip":"Puste"},
+            {"img":"componentResources/animator/football/pitch/hala2/full.svg", "data":"componentResources/animator/football/pitch/hall2_full.jpg", "tooltip":"Całe"},
+            {"img":"componentResources/animator/football/pitch/hala2/left_corner.svg", "data":"componentResources/animator/football/pitch/hall2_left_corner.jpg", "tooltip":"Lewy róg"},
+            {"img":"componentResources/animator/football/pitch/hala2/right_corner.svg", "data":"componentResources/animator/football/pitch/hall2_right_corner.jpg", "tooltip":"Prawy róg"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "arrows",
+      "icon": "arrow",
+      "tooltip": "Strzałki i linie",
+      "items": [
+        {
+          "name": "Numeracja strzałek",
+          "type": "switch",
+          "items":[
+            {"id":"animatorSwitchArrowOrder", "name":"Czy numerować strzałki, które dodajesz?"}
+          ]
+        },
+        {
+          "name": "Linie proste",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/arrows/podanie.svg", "data":"podanie", "tooltip":"Podanie"},
+            {"img":"componentResources/animator/football/arrows/zpilka.svg", "data":"bzpilka", "tooltip":"Bieg z piłką"},
+            {"img":"componentResources/animator/football/arrows/bezpilki.svg", "data":"bbezpilki", "tooltip":"Bieg bez piłki"},
+            {"img":"componentResources/animator/football/arrows/strzal.svg", "data":"strzal", "tooltip":"Strzał"},
+            {"img":"componentResources/animator/football/arrows/odleglosc.svg", "data":"odleglosc", "tooltip":"Odległość"},
+            {"img":"componentResources/animator/football/arrows/pomocnicza.svg", "data":"pomocnicza", "tooltip":"Linia pomocnicza"}
+          ]
+        },
+        {
+          "name": "Linie niereguralne",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/arrows/podaniem.svg", "data":"podanie-m", "tooltip":"Podanie"},
+            {"img":"componentResources/animator/football/arrows/zpilkam.svg", "data":"bzpilka-m", "tooltip":"Bieg z piłką"},
+            {"img":"componentResources/animator/football/arrows/bezpilkim.svg", "data":"bbezpilki-m", "tooltip":"Bieg bez piłki"},
+            {"img":"componentResources/animator/football/arrows/strzalm.svg", "data":"strzal-m", "tooltip":"Strzał"},
+            {"img":"componentResources/animator/football/arrows/odlegloscm.svg", "data":"odleglosc-m", "tooltip":"Odległość"},
+            {"img":"componentResources/animator/football/arrows/pomocniczam.svg", "data":"pomocnicza-m", "tooltip":"Linia pomocnicza"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "area",
+      "icon": "area",
+      "tooltip": "Obszary",
+      "items": [
+        {
+          "name": "Obszary",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/area/line.svg", "data":"prosty-r", "tooltip":"Prostokątny, linia ciągła"},
+            {"img":"componentResources/animator/football/area/dotted.svg", "data":"przerywany-r", "tooltip":"Prostokątny, linia przerywana"},
+            {"img":"componentResources/animator/football/area/line-c.svg", "data":"prosty-c", "tooltip":"Okrągły, linia ciągła"},
+            {"img":"componentResources/animator/football/area/dotted-c.svg", "data":"przerywany-c", "tooltip":"Okrągły, linia przerywana"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "players",
+      "icon": "player",
+      "tooltip": "Zawodnicy",
+      "items": [
+        {
+          "name": "Zawodnicy numerowani",
+          "type": "img",
+          "class": "animatorFullItemInGroup",
+          "items": [
+            {"img":"componentResources/animator/football/players/circle_empty_blue.svg", "data":"circle-blue", "tooltip":"Niebieski piłkarz"},
+            {"img":"componentResources/animator/football/players/circle_empty_red.svg", "data":"circle-red", "tooltip":"Czerwony piłkarz"},
+            {"img":"componentResources/animator/football/players/circle_empty_green.svg", "data":"circle-green", "tooltip":"Zielony piłkarz"},
+            {"img":"componentResources/animator/football/players/circle_empty_yellow.svg", "data":"circle-yellow", "tooltip":"Żółty piłkarz"},
+            {"img":"componentResources/animator/football/players/circle_coach.svg", "data":"circle-coach", "tooltip":"Trener"},
+            {"img":"componentResources/animator/football/players/circle_blue_GK.svg", "data":"circle-blue-gk", "tooltip":"Niebieski bramkarz"},
+            {"img":"componentResources/animator/football/players/circle_red_GK.svg", "data":"circle-red-gk", "tooltip":"Czerwony bramkarz"},
+            {"img":"componentResources/animator/football/players/circle_green_GK.svg", "data":"circle-green-gk", "tooltip":"Zielony bramkarz"},
+            {"img":"componentResources/animator/football/players/circle_yellow_GK.svg", "data":"circle-yellow-gk", "tooltip":"Żółty bramkarz"},
+            {"img":"componentResources/animator/football/players/circle_empty_white.svg", "data":"circle-empty", "tooltip":"Trener"}
+          ]
+        },
+        {
+          "name": "Zawodnicy z lotu ptaka",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/players/empty.svg", "data":"componentResources/animator/football/players/empty.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/GK.svg", "data":"componentResources/animator/football/players/GK.svg", "tooltip":"Bramkarz"}
+          ]
+        },
+        {
+          "name": "Zawodnicy perspektywa",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/players/1.svg", "data":"componentResources/animator/football/players/1.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/3.svg", "data":"componentResources/animator/football/players/3.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/2_left.svg", "data":"componentResources/animator/football/players/2_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/2_right.svg", "data":"componentResources/animator/football/players/2_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/4_left.svg", "data":"componentResources/animator/football/players/4_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/4_right.svg", "data":"componentResources/animator/football/players/4_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/5_left.svg", "data":"componentResources/animator/football/players/5_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/5_right.svg", "data":"componentResources/animator/football/players/5_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/6_left.svg", "data":"componentResources/animator/football/players/6_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/6_right.svg", "data":"componentResources/animator/football/players/6_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/7_left.svg", "data":"componentResources/animator/football/players/7_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/7_right.svg", "data":"componentResources/animator/football/players/7_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/8_left.svg", "data":"componentResources/animator/football/players/8_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/8_right.svg", "data":"componentResources/animator/football/players/8_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/9_left.svg", "data":"componentResources/animator/football/players/9_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/9_right.svg", "data":"componentResources/animator/football/players/9_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/10_left.svg", "data":"componentResources/animator/football/players/10_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/10_right.svg", "data":"componentResources/animator/football/players/10_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/11_left.svg", "data":"componentResources/animator/football/players/11_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/11_right.svg", "data":"componentResources/animator/football/players/11_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/12_left.svg", "data":"componentResources/animator/football/players/12_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/12_right.svg", "data":"componentResources/animator/football/players/12_right.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/13_left.svg", "data":"componentResources/animator/football/players/13_left.svg", "tooltip":"Piłkarz"},
+            {"img":"componentResources/animator/football/players/13_right.svg", "data":"componentResources/animator/football/players/13_right.svg", "tooltip":"Piłkarz"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "other",
+      "icon": "other",
+      "tooltip": "Sprzęt sportowy",
+      "items": [
+        {
+          "name": "Piłki",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/others/ball.svg", "data":"componentResources/animator/football/others/ball.svg", "tooltip":"Pojedyncza piłka"},
+            {"img":"componentResources/animator/football/others/medicine_ball.svg", "data":"componentResources/animator/football/others/medicine_ball.svg", "tooltip":"Piłka lekarska"}
+          ]
+        },
+        {
+          "name": "Akcesoria",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/others/bollard.svg", "data":"componentResources/animator/football/others/bollard.svg", "tooltip":"Stożek"},
+            {"img":"componentResources/animator/football/others/cone.svg", "data":"componentResources/animator/football/others/cone.svg", "tooltip":"Pachołek"},
+            {"img":"componentResources/animator/football/others/ring.svg", "data":"componentResources/animator/football/others/ring.svg", "tooltip":"Pierścień"},
+            {"img":"componentResources/animator/football/others/ladder.svg", "data":"componentResources/animator/football/others/ladder.svg", "tooltip":"Drabinka"},
+            {"img":"componentResources/animator/football/others/low_hurdle.svg", "data":"componentResources/animator/football/others/low_hurdle.svg", "tooltip":"Niski płotek"},
+            {"img":"componentResources/animator/football/others/middle_hurdle.svg", "data":"componentResources/animator/football/others/middle_hurdle.svg", "tooltip":"Średni płotek"},
+            {"img":"componentResources/animator/football/others/high_hurdle.svg", "data":"componentResources/animator/football/others/high_hurdle.svg", "tooltip":"Wysoki płotek"},
+            {"img":"componentResources/animator/football/others/flag.svg", "data":"componentResources/animator/football/others/flag.svg", "tooltip":"Chorągiewka"},
+            {"img":"componentResources/animator/football/others/pole.svg", "data":"componentResources/animator/football/others/pole.svg", "tooltip":"Tyczka"},
+            {"img":"componentResources/animator/football/others/wall.svg", "data":"componentResources/animator/football/others/wall.svg", "tooltip":"Murek"},
+            {"img":"componentResources/animator/football/others/volleyball.svg", "data":"componentResources/animator/football/others/volleyball.svg", "tooltip":"Siatkonoga (prosto)"},
+            {"img":"componentResources/animator/football/others/volleyball2.svg", "data":"componentResources/animator/football/others/volleyball2.svg", "tooltip":"Siatkonoga (pod kątem)"}
+          ]
+        },
+        {
+          "name": "Bramki",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/others/goal.svg", "data":"componentResources/animator/football/others/goal.svg", "tooltip":"Duża bramka"},
+            {"img":"componentResources/animator/football/others/front_goal.svg", "data":"componentResources/animator/football/others/front_goal.svg", "tooltip":"Duża bramka (perspektywa, przód)"},
+            {"img":"componentResources/animator/football/others/back_goal.svg", "data":"componentResources/animator/football/others/back_goal.svg", "tooltip":"Duża bramka (perspektywa, tył)"},
+            {"img":"componentResources/animator/football/others/bottom_goal.svg", "data":"componentResources/animator/football/others/bottom_goal.svg", "tooltip":"Duża bramka (perspektywa, kąt)"},
+            {"img":"componentResources/animator/football/others/top_goal.svg", "data":"componentResources/animator/football/others/top_goal.svg", "tooltip":"Duża bramka (perspektywa, kąt)"},
+            {"img":"componentResources/animator/football/others/mini_goal.svg", "data":"componentResources/animator/football/others/mini_goal.svg", "tooltip":"Mini bramka"},
+            {"img":"componentResources/animator/football/others/mini_goal_left.svg", "data":"componentResources/animator/football/others/mini_goal_left.svg", "tooltip":"Mini bramka (perspektywa, kąt)"},
+            {"img":"componentResources/animator/football/others/mini_goal_right.svg", "data":"componentResources/animator/football/others/mini_goal_right.svg", "tooltip":"Mini bramka (perspektywa, kąt)"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "icon": "text",
+      "tooltip": "Narzędzia tekstowe",
+      "items": [
+        {
+          "name": "Tekst bez tła",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/fonts/lato.svg", "data":"lato", "tooltip":"Tekst, czcionka Lato"},
+            {"img":"componentResources/animator/football/fonts/courier.svg", "data":"courier", "tooltip":"Tekst, czcionka Courier"}
+          ]
+        },
+        {
+          "name": "Tekst z tłem",
+          "type": "img",
+          "class": "",
+          "items": [
+            {"img":"componentResources/animator/football/fonts/lato.svg", "data":"lato-b", "tooltip":"Tekst, czcionka Lato"},
+            {"img":"componentResources/animator/football/fonts/courier.svg", "data":"courier-b", "tooltip":"Tekst, czcionka Courier"}
+          ]
+        }
+      ]
+    }
+  ]
+}

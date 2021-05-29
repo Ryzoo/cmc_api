@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter; }
+
+h1 {
+  margin: 10px 0 19px; }
+
+h2 {
+  margin: 8px 0 17px; }
+
+h3 {
+  margin: 5px 0 15px; }
+
+h4 {
+  margin: 3px 0 13px; }
+
+h5 {
+  margin: 1px 0 11px; }
+
+@media (max-width: 728px) {
+  h1, h2, h3, h4, h5 {
+    text-align: center; } }
+
+input {
+  background-color: #FFFFFF;
+  line-height: 25px;
+  font-size: 0.9rem;
+  padding: 0 5px;
+  border: 1px solid #4C6085;
+  margin: 0 0 10px;
+  border-radius: 5px;
+  transition: all .2s; }
+  input:focus, input:hover {
+    outline: none;
+    transition: all .2s;
+    border: 1px solid #2D7DD2; }
+
+label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: 0 0 3px; }
+
+button {
+  background-color: #2D7DD2;
+  line-height: 25px;
+  font-size: 1rem;
+  padding: 5px 15px;
+  margin: 15px 0 0;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  transition: all .2s;
+  color: #FFFFFF;
+  outline: none;
+  cursor: pointer; }
+  button:hover {
+    outline: none;
+    transition: all .2s;
+    background-color: #428ad7; }
+  button:focus {
+    outline: none;
+    background-color: #2D7DD2; }
+
+.panel {
+  transition: all .2s;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 35px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 25px;
+  min-height: 200px;
+  min-width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  .panel .panel-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .panel .panel-header h3, .panel .panel-header button {
+      margin: 0 0 15px; }
+  @media (max-width: 728px) {
+    .panel {
+      flex-basis: 100% !important;
+      padding: 25px; } }
+
+.darkerTop {
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%); }
+
+.pageContainer {
+  width: 1200px;
+  margin: auto;
+  min-height: 100vh; }
+  @media (max-width: 1200px) {
+    .pageContainer {
+      width: 966px; } }
+  @media (max-width: 966px) {
+    .pageContainer {
+      width: 728px; } }
+  @media (max-width: 728px) {
+    .pageContainer {
+      width: 512px; } }
+  @media (max-width: 512px) {
+    .pageContainer {
+      width: 100%; } }
+
+header {
+  height: 160px;
+  color: #FFFFFF !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between; }
+  header .userData, header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    line-height: 50px; }
+    @media (max-width: 728px) {
+      header .userData, header nav {
+        width: 100%;
+        justify-content: center; } }
+    header .userData img, header nav img {
+      height: 80px;
+      width: 50px;
+      object-fit: contain;
+      object-position: center;
+      padding: 0 0 0 15px; }
+    header .userData h2, header nav h2 {
+      margin: 0;
+      padding: 15px; }
+    header .userData a, header nav a {
+      font-size: 1rem;
+      font-weight: 400;
+      text-decoration: none;
+      color: #FFFFFF;
+      padding: 15px;
+      box-sizing: border-box; }
+      @media (max-width: 728px) {
+        header .userData a, header nav a {
+          padding: 5px;
+          line-height: 1rem; } }
+      header .userData a:hover, header nav a:hover {
+        outline: none;
+        transition: all .2s;
+        color: #2D7DD2; }
+  header .userData > a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    line-height: 50px;
+    padding: 0; }
+    @media (max-width: 728px) {
+      header .userData > a {
+        width: 100%;
+        justify-content: center; } }
+
+.profileImgMini {
+  height: 25px;
+  width: 25px;
+  object-position: center;
+  object-fit: contain; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+  .row .col {
+    margin: 10px;
+    flex: 1; }
+  .row .col-2 {
+    margin: 10px;
+    flex: 2; }
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .5s; }
+
+.fade-enter, .fade-leave-to {
+  opacity: 0; }
+
+/*# sourceMappingURL=global.css.map */

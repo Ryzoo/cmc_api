@@ -1,0 +1,164 @@
+{
+  "items":[
+    {
+      "name":"arrow",
+      "type": {
+        "current": "straight",
+        "options":[
+          {"name":"Przerywana","val":"gap"},
+          {"name":"Pojedyncza","val":"straight"},
+          {"name":"Podwójna","val":"double"},
+          {"name":"Krzywa","val":"curved"}
+        ]
+      },
+      "color":{
+        "current": "#ffffff",
+        "options":[
+          "#ffffff","#e74c3c" ,"#3598db", "#3ccd70", "#f1c410"
+        ]
+      },
+      "arrowhead":{
+        "current": "one",
+        "options":[
+          {"name":"Brak","val":"none"},
+          {"name":"Jeden","val":"one"},
+          {"name":"Dwa","val":"two"}
+        ]
+      },
+      "size":{
+        "current": 2,
+        "options":[
+          2,6
+        ]
+      },
+      "orderSize":{
+        "current": 14,
+        "options":[
+          10, 18
+        ]
+      },
+      "orderText":{
+        "current": "",
+        "options":[
+          0,99
+        ]
+      }
+    },
+    {
+      "name":"area",
+      "rotatable": true,
+      "rotation": {
+        "current": 0,
+        "options": [0,360,15]
+      },
+      "type": {
+        "current": "straight",
+        "options":[
+          {"name":"Przerywana","val":"gap"},
+          {"name":"Ciągła","val":"straight"}
+        ]
+      },
+      "color":{
+        "current": "#ffffff",
+        "options":[
+          "#ffffff","#e74c3c" ,"#3598db", "#3ccd70", "#f1c410"
+        ]
+      },
+      "opacity":{
+        "current": 30,
+        "options":[
+          1,100
+        ]
+      }
+    },
+    {
+      "name":"other",
+      "rotatable": true,
+      "rotation": {
+        "current": 0,
+        "options": [0,360,15]
+      },
+      "scalable": true,
+      "scale": {
+        "current": 0.6,
+        "options": [0.1,2,0.1]
+      },
+      "color_img":{
+        "current": "",
+        "options":[
+          { "color": "#ffffff", "data": "" },
+          { "color": "#e74c3c", "data": "_red" },
+          { "color": "#3598db", "data": "_blue" },
+          { "color": "#f1c410", "data": "_yellow" },
+          { "color": "#3ccd70", "data": "_green" }
+        ]
+      },
+      "textIn":{
+        "current": "",
+        "options": 20
+      }
+    },
+    {
+      "name":"numberedPlayer",
+      "scalable": true,
+      "scale": {
+        "current": 1,
+        "options": [0.1,2,0.1]
+      },
+      "color":{
+        "current": "#ffffff",
+        "options":[
+          "#ffffff","#e74c3c" ,"#3598db", "#3ccd70", "#f1c410"
+        ]
+      },
+      "textIn":{
+        "current": "",
+        "options": 2
+      }
+    },
+    {
+      "name":"text",
+      "rotatable": true,
+      "rotation": {
+        "current": 0,
+        "options": [0,360,15]
+      },
+      "fontColor":{
+        "current": "#ffffff",
+        "options":[
+          "#ffffff","#e74c3c" ,"#3598db", "#3ccd70", "#f1c410"
+        ]
+      },
+      "color":{
+        "current": "#ffffff",
+        "options":[
+          "#ffffff","#e74c3c" ,"#3598db", "#3ccd70", "#f1c410"
+        ]
+      },
+      "textIn":{
+        "current": "Kliknij, aby edytować",
+        "options": 100
+      },
+      "type": {
+        "current": "lato",
+        "options":[
+          {"name":"Lato","val":"lato"},
+          {"name":"Arial","val":"arial"},
+          {"name":"Courier","val":"courier new"}
+        ]
+      },
+      "size":{
+        "current": 30,
+        "options":[
+          10,60
+        ]
+      },
+      "sizeWidth":{
+        "current": 300,
+        "options":[
+          50,2000
+        ]
+      }
+    }
+  ]
+}

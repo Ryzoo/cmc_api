@@ -1,0 +1,33 @@
+.notifications {
+  padding: 0 1em;
+  display: block;
+}
+
+.title,
+.date {
+  display: block;
+  line-height: 15px;
+}
+
+.notifications button {
+  display: inline-block;
+}
+
+.title {
+  font-weight: bold;
+}
+.details {
+  white-space: normal;
+}
+
+.button-free-l:hover {
+  color: black !important;
+}
+
+.notifications .item {
+  cursor: default;
+  display: flex;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}

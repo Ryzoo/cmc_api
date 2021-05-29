@@ -1,0 +1,59 @@
+{
+  "environment": "prod",
+  "database": {
+    "host": "mysql18.mydevil.net",
+    "dbname": "m1006_api",
+    "port": 3306,
+    "username": "m1006_api",
+    "password": "5AK99gozXs4CYG86j6KF"
+  },
+  "localDatabase": {
+    "host": "mysql18.mydevil.net",
+    "dbname": "m1006_api",
+    "port": 3306,
+    "username": "m1006_api",
+    "password": "5AK99gozXs4CYG86j6KF"
+  },
+  "mail":{
+    "host": "mail18.mydevil.net;mail18.mydevil.net",
+    "name": "Club Management Center",
+    "email": "no-reply@centrumklubu.pl",
+    "password": "vRYDP30Lo7FRBGqHSX8T"
+  },
+  "memcached": {
+    "host": "127.0.0.1",
+    "port": 11911
+  },
+  "logPath": "logs.log",
+  "webSocketPort": 28784,
+  "migration":[
+    "WalletHistory",
+    "Wallet",
+    "User",
+    "SharedConspect",
+    "SharedAnimation",
+    "Notification",
+    "Message",
+    "Job",
+    "Invitation",
+    "Friend",
+    "File",
+    "Event",
+    "Contact",
+    "Conspect",
+    "Animation",
+    "Role",
+    "Permission",
+    "RolePermission",
+    "Form",
+    "Gift",
+    "UserGift",
+    "RenderQueue",
+    "FormAnswer",
+    "FormField",
+    "License",
+    "UserLicense",
+    "Folder",
+    "Watermark"
+  ]
+}

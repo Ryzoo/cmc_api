@@ -1,0 +1,56 @@
+.notify-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  bottom: 65px;
+  z-index: 1000;
+}
+
+.notify-element {
+  margin-top: 10px;
+  transition: transform .3s ease-in-out, opacity .1s ease-out;
+  cursor: pointer;
+  width: 360px;
+  height: auto;
+  color: white;
+  text-align: center;
+  border-radius: 2px 0 0 2px;
+  align-items: center;
+  padding: 15px 20px;
+  z-index: 1000;
+}
+
+.notify-element:hover{
+  opacity: .8;
+}
+
+.notify-hide {
+  transform: translate(100%, 0px);
+}
+
+.default-notify {
+  display: none;
+  background-color: #34495E;
+}
+
+.danger-notify {
+  display: none;
+  background-color: #E74C3C;
+}
+
+.warning-notify {
+  display: none;
+  background-color: #F1C40F;
+}
+
+.success-notify {
+  display: none;
+  background-color: #2ECC71;
+}
+
+.info-notify {
+  display: none;
+  background-color: #3498DB;
+}
+

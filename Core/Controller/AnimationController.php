@@ -184,12 +184,10 @@ class AnimationController implements IController{
 
             $renderQueue = RenderQueue::where("animation_id","=",$id)->where("is_render","=","TRUE")->get();
             if(isset($renderQueue[0])){
-                var_dump($renderQueue[0]);
                 $renderQueue[0]->update([
                     "is_end" => 1,
                     "is_render" => 0
                 ]);
-                die();
             }
         }
     }

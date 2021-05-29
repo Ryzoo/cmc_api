@@ -56,7 +56,7 @@ class RenderAnimationJob extends BaseJob
 
     public function renderAnimation($renderElement){
         $animationId = $renderElement->get("animation_id");
-        $dir = "/usr/home/CMCAdmin/domains/api.centrumklubu.pl/public_html/";
+        $dir = "/home/forge/api.centrumklubu.pl/";
         $anim = Animation::find($animationId);
 
         if(!$anim){

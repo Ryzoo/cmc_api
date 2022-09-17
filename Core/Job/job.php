@@ -18,6 +18,7 @@ foreach($jobsArray as $job){
 $jobby = new Jobby\Jobby();
 
 foreach ($jobs as $job) {
+    echo "Start closure for " . $job->getName();
     $job->closure();
     $jobby->add($job->getName(), [
         'closure'  => function() use ($job){
@@ -26,7 +27,8 @@ foreach ($jobs as $job) {
         },
         'debug' => true,
         'enabled' => true,
-        'schedule' => $job->getDate()
+        'schedule' => $job->getDate(),
+        'output' => 'logs/command.log',
     ]);
 }
 
